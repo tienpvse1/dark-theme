@@ -5,7 +5,7 @@ interface TagsProps {
   tags: { tag: string; theme: string }[];
 }
 
-// this components should return list of tags
+// this component should return list of tags
 export const Tags: React.FC<TagsProps> = ({ tags }) => {
   return (
     <>
