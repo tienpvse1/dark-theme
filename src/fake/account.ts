@@ -1,6 +1,6 @@
 import { address, random } from "faker";
 import { Account } from "../interface/account/entity/account";
-// by default, 10 random account will be generated
+// by default, 10 random accounts will be generated
 export const getRandomAccounts = (size = 10): Account[] => {
   const accounts: Account[] = [];
   for (let index = 0; index < size; index++) {
